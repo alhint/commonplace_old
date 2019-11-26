@@ -1,3 +1,5 @@
-{% for post in site.posts %}
+{% assign sortedPosts = site.posts | sort: 'created_at' %}
+
+{% for post in sortedPosts %}
   {% include entry.html %}
 {% endfor %}

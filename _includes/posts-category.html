@@ -1,3 +1,16 @@
 {%- for post in site.categories[include.taxonomy] -%}
   {% include entry.html %}
 {%- endfor -%}
+
+<!-- {% assign sortedPosts = site.categories[include.taxonomy] | sort: 'created_at' %}
+
+{%- for post in sortedPosts -%}
+  {% include entry.html %}
+{%- endfor -%} -->
+
+
+<!-- {% assign sortedPosts = site.posts | sort: 'created_at' %}
+
+{% for post in sortedPosts %}
+  {% include entry.html %}
+{% endfor %} -->
