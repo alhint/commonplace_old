@@ -3,8 +3,6 @@ ACTION ITEMS
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - configure plug-ins
-
   - change post sort behavior on category pages to sort by creation date
 
   - fix svg formatting for:
@@ -32,6 +30,12 @@ ACTION ITEMS
   - consider adding images
 
   - establish workflow using Prose
+
+  - configure plugins
+    -  jekyll-seo-tag
+    - jekyll-feed
+    - jekyll-paginate
+    - jekyll-sitemap
 
 ------------------------------------------------------------------------------
 --MAIN SITE-------------------------------------------------------------------
