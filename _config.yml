@@ -76,7 +76,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - x_action_items #to-do list
+  - .action_items #to-do list
 
 # Front Matter Defaults
 defaults:
