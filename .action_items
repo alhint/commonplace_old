@@ -15,6 +15,8 @@ ACTION ITEMS
 
   - add remaining pages (e.g., wellness)
 
+  - install a Sass or SCSS linter for your favorite text editor
+
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
 ------------------------------------------------------------------------------
@@ -42,3 +44,5 @@ ACTION ITEMS
 ------------------------------------------------------------------------------
 
   - use to resolve sass error: LC_ALL="en_US.UTF-8"
+
+  - github-pages gem dependencies: https://pages.github.com/versions/
