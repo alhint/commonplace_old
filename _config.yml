@@ -4,7 +4,7 @@ email: me@anthonyhinton.com
 description: >-
  A place where discovered and developed ideas are shared.
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://commonplace.anthonyhinton.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Anthony Hinton
   twitter:
