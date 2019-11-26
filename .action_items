@@ -5,15 +5,7 @@ ACTION ITEMS
 
   - change post sort behavior on category pages to sort by creation date
 
-  - fix svg formatting for:
-    - icon-link
-    - icon-goodreads
-
-  - ensure octicon formatting works across browsers, etc.
-
   - add remaining pages (e.g., wellness)
-
-  - install a Sass or SCSS linter for your favorite text editor
 
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
@@ -36,6 +28,12 @@ ACTION ITEMS
     - jekyll-feed
     - jekyll-paginate
     - jekyll-sitemap
+
+  - fix svg formatting for:
+    - icon-link
+    - icon-goodreads
+
+  - install a Sass or SCSS linter for your favorite text editor
 
 ------------------------------------------------------------------------------
 --MAIN SITE-------------------------------------------------------------------
