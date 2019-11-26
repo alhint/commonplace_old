@@ -25,7 +25,8 @@ algolia:
 
 pre_build:
   commands:
-    - LC_ALL="en_US.UTF-8"
+    - export LC_ALL="en_US.UTF-8"
+    - export LANG="en_US.UTF-8"
 
 copyright: #"My custom copyright."
 
