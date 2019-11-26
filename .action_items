@@ -1,0 +1,44 @@
+ACTION ITEMS
+------------------------------------------------------------------------------
+--PRIORITY--------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+  - configure plug-ins
+
+  - change post sort behavior on category pages to sort by creation date
+
+  - fix svg formatting for:
+    - icon-link
+    - icon-goodreads
+
+  - ensure octicon formatting works across browsers, etc.
+
+  - add remaining pages (e.g., wellness)
+
+------------------------------------------------------------------------------
+--OTHER-----------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+  - update text copy in _data/theme.yml
+
+  - set up google analytics
+    - add tracking for source url clicks
+    - https://thoughtbot.com/blog/external-posts-in-jekyll
+
+  - brand commonplace and purchase new domain
+
+  - consider adding images
+
+  - establish workflow using Prose
+
+------------------------------------------------------------------------------
+--MAIN SITE-------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+  - redirect anthony-hinton.com to anthonyhinton.com
+
+------------------------------------------------------------------------------
+--REMINDERS-------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+  - use to resolve sass error: LC_ALL="en_US.UTF-8"
