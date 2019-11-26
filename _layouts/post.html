@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include page-intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+      <div class="entry-content">
+        {% for tag in page.tags %}
+        {% capture tag_name %}#{{ tag }}{% endcapture %}
+          <a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
+      </div>
+      <div align="right">
+        - {{ page.attribution}} <a href="{{ page.source_url }}" target="_blank"> {% octicon link %} </a>
+      </div>
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
+    </article>
+  </div>
+</main>
