@@ -1,10 +1,3 @@
-pre_build:
-  commands:
-    - export LC_ALL="en_US.UTF-8"
-    - export LC_ALL="C.UTF-8"
-    - export LANG="en_US.UTF-8"
-    - export LANGUAGE="en_US.UTF-8"
-
 lang: en-US
 title: Anthony's Commonplace
 email: me@anthonyhinton.com
@@ -29,6 +22,10 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+
+pre_build:
+  commands:
+    - LC_ALL="en_US.UTF-8"
 
 copyright: #"My custom copyright."
 
