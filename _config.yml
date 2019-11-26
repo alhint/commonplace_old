@@ -23,6 +23,10 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 
+pre_build:
+  commands:
+    - LC_ALL="en_US.UTF-8"
+
 copyright: #"My custom copyright."
 
 encoding: utf-8
@@ -40,12 +44,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-octicons
 feed:
   path: atom.xml
 
 jekyll_auth:
   whitelist:
     - jekyll-redirect-from
+    - jekyll-octicons
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: #10
@@ -72,20 +78,20 @@ exclude:
   - x_action_items #to-do list
 
 # Front Matter Defaults
-# defaults:
-#   -
-#     scope:
-#       path: "_drafts/career"
-#       type: "posts"
-#     values:
-#       layout: "post"
-#       permalink: "/:categories/:title"
-#       category: "career"
-#   -
-#     scope:
-#       path: "_drafts/health"
-#       type: "posts"
-#     values:
-#       layout: "post"
-#       permalink: "/:categories/:title"
-#       category: "health"
+defaults:
+  -
+    scope:
+      path: "_drafts/career"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "career"
+  -
+    scope:
+      path: "_drafts/health"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "health"
