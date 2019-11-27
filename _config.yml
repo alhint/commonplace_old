@@ -29,6 +29,11 @@ pre_build:
     - export LC_ALL="en_US.UTF-8"
     - export LANG="en_US.UTF-8"
 
+variables:
+  LC_ALL: "C.UTF-8"
+  LANG: "en_US.UTF-8"
+  LANGUAGE: "en_US.UTF-8"
+
 copyright: #"My custom copyright."
 
 encoding: utf-8

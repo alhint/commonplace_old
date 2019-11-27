@@ -38,7 +38,7 @@ ACTION ITEMS
   - establish workflow using Prose
 
   - configure plugins
-    -  jekyll-seo-tag
+    - jekyll-seo-tag
     - jekyll-feed
     - jekyll-paginate
     - jekyll-sitemap
