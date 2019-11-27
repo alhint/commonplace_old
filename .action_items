@@ -3,10 +3,10 @@ ACTION ITEMS
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - fix build issue with using terminal in atom
+  - fix build issue with using terminal in atom (message theme owner)
 
   - add images (see https://unsplash.com/)
-    - about page
+    - about page (find new photo; "fun" and "relaxed")
       - recommended picture size is approximately 300 x 300 pixels
     - each category page
     - homepage (i.e., index.md)
@@ -14,6 +14,8 @@ ACTION ITEMS
   - update 404 page
 
   - change post sort behavior on category pages to sort by creation date
+
+  - set up search
 
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
