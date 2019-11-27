@@ -7,7 +7,7 @@ ACTION ITEMS
     - set defaults for category pages in _config.yml (e.g., entries_layout)
     - update path in _data/theme.yml
 
-  - add images
+  - add images (see https://unsplash.com/)
     - about page
       - recommended picture size is approximately 300 x 300 pixels
     - each category page
