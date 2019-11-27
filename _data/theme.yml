@@ -37,9 +37,9 @@ google_fonts:
 navigation_pages:
   - _pages/about.md
   - _pages/tags.md
-  - _pages/well_being.md
-  - _pages/health.md
-  - _pages/performance.md
-  - _pages/career.md
-  - _pages/product.md
-  - _pages/technology.md
+  - _pages/categories/well_being.md
+  - _pages/categories/health.md
+  - _pages/categories/performance.md
+  - _pages/categories/career.md
+  - _pages/categories/product.md
+  - _pages/categories/technology.md

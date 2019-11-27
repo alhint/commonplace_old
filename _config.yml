@@ -88,6 +88,14 @@ exclude:
 defaults:
   -
     scope:
+      path: "_pages/categories"
+      type: "pages"
+    values:
+      layout: "category"
+      entries_layout: "grid"
+      nav: 2
+  -
+    scope:
       path: "_drafts/career"
       type: "posts"
     values:
