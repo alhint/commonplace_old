@@ -1,10 +1,10 @@
 ---
-layout: tags
-permalink: "/tags/"
-taxonomy: technology
+layout: category
+permalink: "/well_being/"
+taxonomy: well_being
 entries_layout: list
-nav: 1
-title: "Tag Archive"
+nav: 2
+title: "Well Being"
 sub_title: "Subtitle"
 introduction: "Explain what this posts in this category will focus on."
 image:  # URL to a hero image associated with the post (e.g., /assets/page-pic.jpg)

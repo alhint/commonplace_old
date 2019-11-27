@@ -16,6 +16,7 @@ t:
   newer: "Newer"
   older: "Older"
   email: "Email"
+  personal_site: "Personal Site"
   subscribe: "Subscribe"
   read_more: "Read More"
   posts: "Posts"
@@ -35,7 +36,10 @@ google_fonts:
 
 navigation_pages:
   - _pages/about.md
-  - _pages/career.md
-  - _pages/health.md
   - _pages/tags.md
-  - _pages/personal_site.md
+  - _pages/well_being.md
+  - _pages/health.md
+  - _pages/performance.md
+  - _pages/career.md
+  - _pages/product.md
+  - _pages/technology.md

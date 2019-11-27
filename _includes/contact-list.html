@@ -8,6 +8,15 @@
     </li>
   {% endif %}
 
+  {% if site.personal_site %}
+    <li>
+      <a href="https://www.anthonyhinton.com/">
+        <span class="icon icon--personalsite">{% include icon-personalsite.svg %}</span>
+        <span class="label">{{ site.data.theme.t.personal_site | default: 'Personal Site' }}</span>
+      </a>
+    </li>
+  {% endif %}
+
   {% if site.github_username %}
     <li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
   {% endif %}

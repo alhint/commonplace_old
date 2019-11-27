@@ -9,6 +9,7 @@ author:
   name: Anthony Hinton
   twitter:
   picture:
+personal_site: anthonyhinton.com
 twitter_username:
 github_username: alhint
 goodreads_username:
@@ -96,3 +97,35 @@ defaults:
       layout: "post"
       permalink: "/:categories/:title"
       category: "health"
+  -
+    scope:
+      path: "_drafts/well_being"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "well_being"
+  -
+    scope:
+      path: "_drafts/product"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "product"
+  -
+    scope:
+      path: "_drafts/technology"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "technology"
+  -
+    scope:
+      path: "_drafts/performance"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "performance"
