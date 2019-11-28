@@ -17,6 +17,9 @@ ACTION ITEMS
 
   - set up search
 
+  - look into whether plugins need to be listed in gemfile
+    - and, whether they should be inside the plugin-in list in gemfile
+
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
 ------------------------------------------------------------------------------
