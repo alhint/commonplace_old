@@ -100,7 +100,7 @@ defaults:
       nav: 2
   -
     scope:
-      path: "_drafts/career"
+      path: "_posts/career"
       type: "posts"
     values:
       layout: "post"
@@ -108,7 +108,7 @@ defaults:
       category: "career"
   -
     scope:
-      path: "_drafts/health"
+      path: "_posts/health"
       type: "posts"
     values:
       layout: "post"
@@ -116,7 +116,7 @@ defaults:
       category: "health"
   -
     scope:
-      path: "_drafts/well_being"
+      path: "_posts/well_being"
       type: "posts"
     values:
       layout: "post"
@@ -124,7 +124,7 @@ defaults:
       category: "well_being"
   -
     scope:
-      path: "_drafts/product"
+      path: "_posts/product"
       type: "posts"
     values:
       layout: "post"
@@ -132,7 +132,7 @@ defaults:
       category: "product"
   -
     scope:
-      path: "_drafts/technology"
+      path: "_posts/technology"
       type: "posts"
     values:
       layout: "post"
@@ -140,7 +140,7 @@ defaults:
       category: "technology"
   -
     scope:
-      path: "_drafts/performance"
+      path: "_posts/performance"
       type: "posts"
     values:
       layout: "post"

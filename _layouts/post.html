@@ -17,7 +17,7 @@ layout: default
         {% endfor %}
       </div>
       <div align="right">
-        - {{ page.attribution}} <a href="{{ page.source_url }}" target="_blank"> {% octicon link %} </a>
+        - {{ page.attribution }}, {{ page.source }} <a href="{{ page.source_url }}" target="_blank"> {% octicon link %} </a>
       </div>
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}

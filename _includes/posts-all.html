@@ -1,4 +1,4 @@
-{% assign sortedPosts = site.posts | sort: 'created_at' %}
+{% assign sortedPosts = site.posts | sort: 'date' %}
 
 {% for post in sortedPosts %}
   {% include entry.html %}
