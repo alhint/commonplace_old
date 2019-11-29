@@ -3,58 +3,73 @@ ACTION ITEMS
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - fix build issue with using terminal in atom (message theme owner)
+  - LIST SYNTAX
+    - remove line break in _posts/health/2016-09-04-rules-for-when-to-sleep.md
 
-  - add images (see https://unsplash.com/)
-    - about page (find new photo; "fun" and "relaxed")
-      - recommended picture size is approximately 300 x 300 pixels
-    - each category page
-    - homepage (i.e., index.md)
+  - POST LAYOUT
+   - set parameters for post excerpts
+    - add source_type to post layout [e.g., attribution, source (source_type)]
+    - update tag format (consider lists, smaller text, etc.)
+    - add category to post layout
+      - if that doesn't work, add tag for category to each post
 
-  - update 404 page
+  - BUILD ISSUE
+    - fix build issue with using terminal in atom
+    - see:
+      - https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
+      - https://jekyllrb.com/docs/front-matter/
 
-  - change post sort behavior on category pages to sort by creation date
+  - IMAGES
+    - see https://unsplash.com/
+    - include:
+      - about page (find new photo; "fun" and "relaxed")
+      - category pages
 
-  - set up search
+  - 404
+    - update 404 page
 
-  - look into whether plugins need to be listed in gemfile
-    - and, whether they should be inside the plugin-in list in gemfile
+  - POST SORTING
+    - change post sort behavior on category pages to sort by creation date
 
-  - set up google analytics
+  - SEARCH
+    - set up search
+
+  - PLUGINS
+    - look into whether plugins need to be listed in gemfile
+    - look into whether they should be inside the plugin-in list in gemfile
+    - configure plugins
+      - jekyll-seo-tag
+      - jekyll-feed
+      - jekyll-paginate
+      - jekyll-sitemap
+
+  - GOOGLE ANALYTICS
     - add tracking for source url clicks
     - https://thoughtbot.com/blog/external-posts-in-jekyll
+
+  - AFFILIATE MARKETING
+    - look into affiliate marketing on Amazon
 
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - update text copy in _data/theme.yml
+  - BRAND
+    - brand commonplace and purchase new domain
 
-  - brand commonplace and purchase new domain
+  - PROSE
+    - establish workflow using Prose
 
-  - consider adding images
+  - SVG FORMATTING
+    - confirm icon formatting is okay
+      - icon-link
+      - icon-goodreads
 
-  - establish workflow using Prose
+  - LINTER
+    - install a Sass or SCSS linter for your favorite text editor
 
-  - configure plugins
-    - jekyll-seo-tag
-    - jekyll-feed
-    - jekyll-paginate
-    - jekyll-sitemap
-
-  - fix svg formatting for:
-    - icon-link
-    - icon-goodreads
-
-  - install a Sass or SCSS linter for your favorite text editor
-
-  - research what people can do with the "subscribe" button
-
-------------------------------------------------------------------------------
---MAIN SITE-------------------------------------------------------------------
-------------------------------------------------------------------------------
-
-  - redirect anthony-hinton.com to anthonyhinton.com
+  - SUBSCRIBE BUTTON
+    - research what people can do with the "subscribe" button
 
 ------------------------------------------------------------------------------
 --REMINDERS-------------------------------------------------------------------
