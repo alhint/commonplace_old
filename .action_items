@@ -3,9 +3,6 @@ ACTION ITEMS
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - LIST SYNTAX
-    - remove line break in _posts/health/2016-09-04-rules-for-when-to-sleep.md
-
   - POST LAYOUT
    - set parameters for post excerpts
     - add source_type to post layout [e.g., attribution, source (source_type)]
