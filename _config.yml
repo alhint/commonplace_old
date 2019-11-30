@@ -96,7 +96,7 @@ defaults:
       type: "pages"
     values:
       layout: "category"
-      entries_layout: "grid"
+      entries_layout: "list"
       nav: 2
   -
     scope:

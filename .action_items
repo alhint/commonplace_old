@@ -11,13 +11,13 @@ ACTION ITEMS------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
   - POST LAYOUT
-    - set parameters for post excerpts
     - add source_type to post layout [e.g., attribution, source (source_type)]
-    - update tag format (consider lists, smaller text, etc.)
-    - for tags, replace hashtags (#) with a tag icon (.octicon-tag)
-      - https://octicons.github.com/icon/tag/
     - add category to post layout
       - if that doesn't work, add tag for category to each post
+
+  -TAGS
+    - fix broken tag links (re "#")
+
 
   - BUILD ISSUE
     - fix build issue with using terminal in atom

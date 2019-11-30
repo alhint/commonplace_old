@@ -11,10 +11,10 @@ layout: default
         {{ content }}
       </div>
       <div class="entry-content">
-        {% for tag in page.tags %}
-        {% capture tag_name %}#{{ tag }}{% endcapture %}
+        <!-- {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-        {% endfor %}
+        {% endfor %} -->
       </div>
       <div align="right">
         - {{ page.attribution }}, {{ page.source }} <a href="{{ page.source_url }}" target="_blank"> {% octicon link %} </a>
