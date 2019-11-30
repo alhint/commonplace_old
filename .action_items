@@ -1,12 +1,21 @@
-ACTION ITEMS
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+ACTION ITEMS------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
 ------------------------------------------------------------------------------
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
   - POST LAYOUT
-   - set parameters for post excerpts
+    - set parameters for post excerpts
     - add source_type to post layout [e.g., attribution, source (source_type)]
     - update tag format (consider lists, smaller text, etc.)
+    - for tags, replace hashtags (#) with a tag icon (.octicon-tag)
+      - https://octicons.github.com/icon/tag/
     - add category to post layout
       - if that doesn't work, add tag for category to each post
 
@@ -72,8 +81,11 @@ ACTION ITEMS
 --REMINDERS-------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - use to resolve sass error: LC_ALL="en_US.UTF-8"
+  - use to resolve sass error:
+    - LC_ALL="en_US.UTF-8"
 
-  - github-pages gem dependencies: https://pages.github.com/versions/
+  - github-pages gem dependencies:
+    - https://pages.github.com/versions/
 
-  - basically basic repo: https://github.com/mmistakes/jekyll-theme-basically-basic#layout-posts
+  - basically basic repo:
+    - https://github.com/mmistakes/jekyll-theme-basically-basic#layout-posts
