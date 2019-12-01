@@ -92,6 +92,14 @@ exclude:
 defaults:
   -
     scope:
+      path: "performance"
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/:categories/:title"
+      category: "performance"
+  -
+    scope:
       path: "_pages/categories"
       type: "pages"
     values:
