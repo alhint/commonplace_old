@@ -16,6 +16,9 @@ ACTION ITEMS------------------------------------------------------------------
       - https://mademistakes.com/work/minimal-mistakes-jekyll-theme/
       - https://jekyllrb.com/docs/front-matter/
 
+  - ICONS
+    - keep tag icon attached to tag so that line breaks don’t separate.
+
   - IMAGES
     - see https://unsplash.com/
     - include:
@@ -46,6 +49,10 @@ ACTION ITEMS------------------------------------------------------------------
 
   - AFFILIATE MARKETING
     - look into affiliate marketing on Amazon
+
+  - SASS
+    - see if you need to add the sass elements in this sample config
+      - https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/docs/_config.yml
 
 ------------------------------------------------------------------------------
 --OTHER-----------------------------------------------------------------------
@@ -80,3 +87,9 @@ ACTION ITEMS------------------------------------------------------------------
 
   - basically basic repo:
     - https://github.com/mmistakes/jekyll-theme-basically-basic#layout-posts
+
+  - tag html:
+      - {% for tag in page.tags %}
+        {% capture tag_name %}#{{ tag }}{% endcapture %}
+          <a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
