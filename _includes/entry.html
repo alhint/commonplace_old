@@ -27,10 +27,10 @@
       <li><span class="icon">{% include icon-stopwatch.svg %}</span>{% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}</li>
     {% endif %} -->
     <!-- This creates tags in post-list view -->
-    {% for tag in post.tags %}
+    <!-- {% for tag in post.tags %}
     <br>{% octicon tag %}{% capture tag_name %}{{ tag }}{% endcapture %}
       <span class="entry-wrap"><a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a></span>
-    {% endfor %}
+    {% endfor %} -->
     </ul>
   </footer>
   <div class="entry-excerpt">
