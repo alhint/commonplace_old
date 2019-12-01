@@ -28,7 +28,7 @@
       {% if page.date %}
         <p class="entry-meta">
           <span class="byline-item"><span class="icon">{% include icon-calendar.svg %}</span><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
-          <span class="byline-item">{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}{% octicon tag %}<a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>{% endfor %}</span>
+          <span class="byline-item">{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %}{% octicon tag width:12 %}<a href="/tags/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp&nbsp;&nbsp;&nbsp;{% endfor %}</span>
         </p>
       {% endif %}
 
