@@ -10,15 +10,6 @@ ACTION ITEMS------------------------------------------------------------------
 --PRIORITY--------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-  - POST LAYOUT
-    - add source_type to post layout [e.g., attribution, source (source_type)]
-    - add category to post layout
-      - if that doesn't work, add tag for category to each post
-
-  -TAGS
-    - fix broken tag links (re "#")
-
-
   - BUILD ISSUE
     - fix build issue with using terminal in atom
     - see:
